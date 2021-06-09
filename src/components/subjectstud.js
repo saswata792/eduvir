@@ -205,8 +205,10 @@ function Subjectstud(){
                                 marks.push(val[Mainchecker.getProfile()[str].username])
                                 }
                             })
+                            
                             marks.map((value)=>(
-                                   `<input type="range">${value}</input>`
+                                    
+                                   `<div class="range"></div><input type="range" min=0 max=100 value=${value.split("%")[0]}></input>`
                                     )).forEach((element)=>{
                                     context+=element
                                   })

@@ -3,7 +3,7 @@ import Signup from "./components/signup.js";
 import Profileinst from "./components/profileinst.js";
 import Profilefac from "./components/profilefac.js";
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Switch,
   Route,
   

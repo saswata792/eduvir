@@ -118,7 +118,7 @@ function Studentsec(){
                     
                             performance.map((dat)=>(
                                 
-                                `<input type="range">${dat}</input>`
+                                `<div class="range2"></div><input type="range" min=0 max=100 value=${dat.split("%")[0]}></input>`
                             )).forEach((element)=>{
                                 context+=element
                             })
