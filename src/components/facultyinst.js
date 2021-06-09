@@ -77,18 +77,16 @@ function Facultyinst(){
         let content=`
         <table id=table3>
       <tr> 
-             <th><label htmlFor="username">Username</label></th>
-             <th><label htmlFor="name">Name</label></th>
-             <th><label htmlFor="email">Email</label></th>
-             <th><label htmlFor="dob">DateofBirth</label></th>
+             <th><label htmlFor="username">USERNAME</label></th>
+             <th><label htmlFor="name">NAME</label></th>
+             <th><label htmlFor="email">EMAIL</label></th>
+             <th><label htmlFor="dob">DATE OF BIRTH</label></th>
              </tr>
              
              </table>`
          
-         //document.getElementById("test").style.display="none"
          document.getElementById("students").style.display="block"
-         //document.getElementById("faculcontac").style.display="none"
-         //document.getElementById("marksstud").style.display="none"
+
          var performance=[]
         
         
@@ -204,7 +202,7 @@ function Facultyinst(){
             <td>  <div>${data.subjectcode}</div></td>
             
             <td>  <div>${data.subjectname}</div></td>
-            <button id="${data.subjectcode}"></button>
+            <button id="${data.subjectcode}">CHECK</button>
             </tr>
             <table>
             
