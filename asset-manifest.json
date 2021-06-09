@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/eduvir/static/css/main.c66ce7b8.chunk.css",
-    "main.js": "/eduvir/static/js/main.d01b80b8.chunk.js",
-    "main.js.map": "/eduvir/static/js/main.d01b80b8.chunk.js.map",
+    "main.js": "/eduvir/static/js/main.af38aa88.chunk.js",
+    "main.js.map": "/eduvir/static/js/main.af38aa88.chunk.js.map",
     "runtime-main.js": "/eduvir/static/js/runtime-main.f6ab36a9.js",
     "runtime-main.js.map": "/eduvir/static/js/runtime-main.f6ab36a9.js.map",
-    "static/js/2.5b023a1f.chunk.js": "/eduvir/static/js/2.5b023a1f.chunk.js",
-    "static/js/2.5b023a1f.chunk.js.map": "/eduvir/static/js/2.5b023a1f.chunk.js.map",
+    "static/js/2.6819ef1c.chunk.js": "/eduvir/static/js/2.6819ef1c.chunk.js",
+    "static/js/2.6819ef1c.chunk.js.map": "/eduvir/static/js/2.6819ef1c.chunk.js.map",
     "static/js/3.37ba7e08.chunk.js": "/eduvir/static/js/3.37ba7e08.chunk.js",
     "static/js/3.37ba7e08.chunk.js.map": "/eduvir/static/js/3.37ba7e08.chunk.js.map",
     "index.html": "/eduvir/index.html",
     "static/css/main.c66ce7b8.chunk.css.map": "/eduvir/static/css/main.c66ce7b8.chunk.css.map",
-    "static/js/2.5b023a1f.chunk.js.LICENSE.txt": "/eduvir/static/js/2.5b023a1f.chunk.js.LICENSE.txt"
+    "static/js/2.6819ef1c.chunk.js.LICENSE.txt": "/eduvir/static/js/2.6819ef1c.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.f6ab36a9.js",
-    "static/js/2.5b023a1f.chunk.js",
+    "static/js/2.6819ef1c.chunk.js",
     "static/css/main.c66ce7b8.chunk.css",
-    "static/js/main.d01b80b8.chunk.js"
+    "static/js/main.af38aa88.chunk.js"
   ]
 }
