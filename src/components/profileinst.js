@@ -31,6 +31,7 @@ function Profileinst()
     {
         document.getElementById("save").style.display="block";
     }
+    
     function passchanged()
     {
         const prpass=document.getElementById('password-two').value;

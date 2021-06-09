@@ -8,7 +8,17 @@ function Facultyinst(){
     
     var str="basicinfo"
     let history=useHistory()
+    const [stud,setstud]=React.useState([])
     
+    React.useEffect(()=>
+        {	
+            var db=firebase.firestore()
+            const fetchdata= async()=>{
+                const check=await db.collection('student').get()
+                setstud(check.docs.map(doc=>doc.data()))
+            }
+            fetchdata()
+        },[])      
    
     const [inst,setinst]=React.useState([])
     React.useEffect(()=>
@@ -39,12 +49,128 @@ function Facultyinst(){
                         setsub(check.docs.map(doc=>doc.data()))
                     }
                     fetchdata()
-                },[])  
+                },[])
+                const [test, getTests] = React.useState([]);
+                React.useEffect(()=>{
+                    const db = firebase.firestore();
+                    return db.collection("test").onSnapshot((snapshot) => {
+                        const content = []
+                        snapshot.forEach(doc => {
+                            content.push({ ...doc.data()})
+                        })
+                            getTests(content)
+                        })
+                }, [])
+                
+    function student(value){
+        console.log(value.students)
+        let stud_final=0
+        let stud_final_f=[]
+        stud_final=value.students
+                stud.forEach((data)=>{
+           
+                    if(stud_final.includes(data[str].username))
+                    {
+                        stud_final_f.push(data[str])
+                    }
+                })             
+        let content=`
+        <table id=table3>
+      <tr> 
+             <th><label htmlFor="username">Username</label></th>
+             <th><label htmlFor="name">Name</label></th>
+             <th><label htmlFor="email">Email</label></th>
+             <th><label htmlFor="dob">DateofBirth</label></th>
+             </tr>
+             
+             </table>`
+         
+         //document.getElementById("test").style.display="none"
+         document.getElementById("students").style.display="block"
+         //document.getElementById("faculcontac").style.display="none"
+         //document.getElementById("marksstud").style.display="none"
+         var performance=[]
+        
+        
+        stud_final_f.map((val)=>(
+         
+         `
+         <div class="tablethree">
+ 
+             <table>
+             <tr>
+         
+         <td><div>${val.username}</div></td>
+         
+         <td> <div>${val.name}</div> </td>
+         
+         <td> <div>${val.email}</div> </td>
+         
+         <td><div>${val.DateofBirth}</div></td>
+         </tr>
+         <table>
+         </div>
+         <div class="performbut">
+         <button id="${val.username}">PERFORMANCE</button>
+         
+         <div style="display:none" id="div_${val.username}"></div>
+         <button  style="display:none" id="but_${val.username}">CLOSE</button>
+         </div>
+         `
+         )).forEach((element)=>{
+         content+=element
+         })
+         document.getElementById("students").innerHTML=content
+         let context
+         let code=0
+         Object.keys(test).forEach((check)=>{
+             if(test[check]["subjectcode"]===value["subjectcode"])
+             {
+                 code=test[check]
+             }    
+         })   
+         stud_final.forEach((data)=>
+                     {
+                         document.getElementById(data).addEventListener("click",function()
+                         {
+                             context=''
+                             performance=[]
+                             document.getElementById("but_"+data).style.display="block"
+                             Object.values(code).forEach((val)=>{
+                                 if(val!==value["subjectcode"] && val!==0)
+                                         performance.push(val[data])
+                             })
+                             
+                             document.getElementById("div_"+data).style.display="block"
+                             document.getElementById(data).style.display="none"
+                     
+                             performance.map((dat)=>(
+                                 
+                                 `<input type="range" min=0 max=100 value=${dat.split("%")[0]}>${dat}</input>`
+                             )).forEach((element)=>{
+                                 context+=element
+                             })
+                             
+                             document.getElementById("div_"+data).innerHTML=context
+                         })
+                        
+                         document.getElementById("but_"+data).addEventListener("click",function()
+                         {
+                             performance=[]
+                             context=''
+                             document.getElementById(data).style.display="block"
+                             document.getElementById("div_"+data).style.display="none"
+                             document.getElementById("but_"+data).style.display="none"
+                         })
+                            
+                     })
+                        
+    } 
     function faculty(){
         document.getElementById("faculcontac").style.display="block"
         document.getElementById("subjectmore").style.display="none"
-
-
+        document.getElementById("students").style.display="none"
+        
         let content=`
         <table id=table1>
       <tr> 
@@ -78,7 +204,7 @@ function Facultyinst(){
             <td>  <div>${data.subjectcode}</div></td>
             
             <td>  <div>${data.subjectname}</div></td>
-
+            <button id="${data.subjectcode}"></button>
             </tr>
             <table>
             
@@ -86,12 +212,20 @@ function Facultyinst(){
             )).forEach((element)=>{
                     content+=element
             })
-            
-        
-    
-        document.getElementById("faculcontac").innerHTML=content;
-        
+            document.getElementById("faculcontac").innerHTML=content;
+            Object.values(sub).forEach((val)=>{
+                
+                document.getElementById(val["subjectcode"]).addEventListener("click",function()
+                         {
+                            console.log(val)
+                            document.getElementById("faculcontac").style.display="none"
+                             student(val)
+                         })
+            })
     }
+
+    
+    
     function logout(){
 
         history.push("/")
@@ -101,6 +235,7 @@ function Facultyinst(){
         const sub=document.getElementById("subjectmore");
         sub.style.display="block";
         document.getElementById("faculcontac").style.display="none";
+        document.getElementById("students").style.display="none"
     }
     function profile(){
         history.push("/profileinst")
@@ -108,6 +243,7 @@ function Facultyinst(){
     function savefacul()
     {
         var  db=firebase.firestore()
+        document.getElementById("students").style.display="none"
         let faculty=[];
         let subjects=[];
         let str="basicinfo"
@@ -205,7 +341,7 @@ function Facultyinst(){
 
 
             <div id="subjectmore" style={{display:"none"}}>
-
+            
                 <div class="subjectnm-one"><label htmlFor="subjectnm" ><b>SUBJECT NAME</b></label></div>
                 <input id="subjectnm-two" onChange={savefaculty}></input>
                 <div class="assfacul-one"> <label htmlFor="assfacul"><b>USERNAME</b></label></div>
@@ -236,6 +372,7 @@ function Facultyinst(){
             </div>
         <div id="faculcontac" style={{display:"block"}}>
         </div>
+        <div id="students" style={{display:"none"}}></div>
         </React.Fragment>
     )
          
