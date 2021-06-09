@@ -1,0 +1,366 @@
+.head300{
+  text-align: center;
+  color:#ffffff;
+  position: fixed;
+  top:0vh;
+  left:42.5vw;
+}
+
+button{
+    display: block;
+    background-color: white;
+    border-radius: 5px;
+    text-align: center;
+    }
+
+
+    #logout{
+      position: fixed;
+  top:50vh;
+  left:62.5vw;
+    }
+  
+    #faculty{
+      position: fixed;
+  top:50vh;
+  left:37.5vw;
+    }
+  
+    #change{
+      position: fixed;
+  top:50vh;
+  left:47.5vw;
+    }
+
+    .c1{
+      color: black;
+      position: fixed;
+  top:60vh;
+  left:37.5vw;
+  
+    }
+  
+    .c2{
+      color: black;
+      position: fixed;
+  top:60vh;
+  left:57.5vw;
+    }
+  
+    .c3{
+      color: black;
+      position: fixed;
+  top:70vh;
+  left:50vw;
+    }
+
+    .t100{
+      color: #ffffff;
+    }
+
+ .username-one{
+  position: fixed;
+  top:15vh;
+  left:42.5vw;
+ }   
+  
+ .username-two{
+  color: black;
+  background-color: aliceblue;
+  font-weight: bold;
+  position: fixed;
+  top:15vh;
+  left:52.5vw;
+ }    
+
+ .name-one{
+  position: fixed;
+  top:20vh;
+  left:42.5vw;
+ }   
+  
+ .name-two{
+  color: black;
+  background-color: aliceblue;
+  font-weight: bold;
+  position: fixed;
+  top:20vh;
+  left:52.5vw;
+ }  
+ 
+ .email-one{
+  position: fixed;
+  top:25vh;
+  left:42.5vw;
+ }   
+  
+ .email-two{
+  color: black;
+  background-color: aliceblue;
+  font-weight: bold;
+  position: fixed;
+  top:25vh;
+  left:52.5vw;
+ }    
+
+ .dob-one{
+  position: fixed;
+  top:30vh;
+  left:42.5vw;
+ }   
+  
+ .dob-two{
+  color: black;
+  background-color: aliceblue;
+  font-weight: bold;
+  position: fixed;
+  top:30vh;
+  left:52.5vw;
+ }    
+
+ @media screen and (max-width: 1080px) {
+  .head300{
+    text-align: center;
+    color:#ffffff;
+    position: fixed;
+    top:0vh;
+    left:42.5vw;
+  }
+  
+  button{
+      display: block;
+      background-color: white;
+      border-radius: 5px;
+      text-align: center;
+      }
+  
+  
+      #logout{
+        position: fixed;
+    top:50vh;
+    left:62.5vw;
+      }
+    
+      #faculty{
+        position: fixed;
+    top:50vh;
+    left:7.5vw;
+      }
+    
+      #change{
+        position: fixed;
+    top:50vh;
+    left:47.5vw;
+      }
+  
+      .c1{
+        color: black;
+        position: fixed;
+    top:60vh;
+    left:37.5vw;
+    
+      }
+    
+      .c2{
+        color: black;
+        position: fixed;
+    top:60vh;
+    left:57.5vw;
+      }
+    
+      .c3{
+        color: black;
+        position: fixed;
+    top:70vh;
+    left:50vw;
+      }
+  
+      .t100{
+        color: #ffffff;
+      }
+  
+   .username-one{
+    position: fixed;
+    top:15vh;
+    left:42.5vw;
+   }   
+    
+   .username-two{
+    color: black;
+    background-color: aliceblue;
+    font-weight: bold;
+    position: fixed;
+    top:15vh;
+    left:52.5vw;
+   }    
+  
+   .name-one{
+    position: fixed;
+    top:20vh;
+    left:42.5vw;
+   }   
+    
+   .name-two{
+    color: black;
+    background-color: aliceblue;
+    font-weight: bold;
+    position: fixed;
+    top:20vh;
+    left:52.5vw;
+   }  
+   
+   .email-one{
+    position: fixed;
+    top:25vh;
+    left:42.5vw;
+   }   
+    
+   .email-two{
+    color: black;
+    background-color: aliceblue;
+    font-weight: bold;
+    position: fixed;
+    top:25vh;
+    left:52.5vw;
+   }    
+  
+   .dob-one{
+    position: fixed;
+    top:30vh;
+    left:42.5vw;
+   }   
+    
+   .dob-two{
+    color: black;
+    background-color: aliceblue;
+    font-weight: bold;
+    position: fixed;
+    top:30vh;
+    left:52.5vw;
+   }    
+  }
+
+  @media screen and (max-width: 600px) {
+    .head300{
+      text-align: center;
+      color:#ffffff;
+      position: fixed;
+      top:0vh;
+      left:22.5vw;
+      font-size: 10px;
+    }
+    
+    button{
+      font-size: 10px;
+      display: block;
+      background-color: white;
+      border-radius: 5px;
+      text-align: center;
+      font-weight: bold;
+      }
+    
+    
+        #logout{
+          position: fixed;
+      top:50vh;
+      left:62.5vw;
+        }
+      
+        #faculty{
+          position: fixed;
+      top:50vh;
+      left:2.5vw;
+        }
+      
+        #change{
+          position: fixed;
+      top:50vh;
+      left:47.5vw;
+        }
+    
+        .c1{
+          color: black;
+          position: fixed;
+      top:60vh;
+      left:37.5vw;
+      
+        }
+      
+        .c2{
+          color: black;
+          position: fixed;
+      top:60vh;
+      left:57.5vw;
+        }
+      
+        .c3{
+          color: black;
+          position: fixed;
+      top:70vh;
+      left:50vw;
+        }
+    
+        .t100{
+          color: #ffffff;
+        }
+    
+     .username-one{
+      position: fixed;
+      top:15vh;
+      left:42.5vw;
+     }   
+      
+     .username-two{
+      color: black;
+      background-color: aliceblue;
+      font-weight: bold;
+      position: fixed;
+      top:15vh;
+      left:52.5vw;
+     }    
+    
+     .name-one{
+      position: fixed;
+      top:20vh;
+      left:42.5vw;
+     }   
+      
+     .name-two{
+      color: black;
+      background-color: aliceblue;
+      font-weight: bold;
+      position: fixed;
+      top:20vh;
+      left:52.5vw;
+     }  
+     
+     .email-one{
+      position: fixed;
+      top:25vh;
+      left:42.5vw;
+     }   
+      
+     .email-two{
+      color: black;
+      background-color: aliceblue;
+      font-weight: bold;
+      position: fixed;
+      top:25vh;
+      left:52.5vw;
+     }    
+    
+     .dob-one{
+      position: fixed;
+      top:30vh;
+      left:42.5vw;
+     }   
+      
+     .dob-two{
+      color: black;
+      background-color: aliceblue;
+      font-weight: bold;
+      position: fixed;
+      top:30vh;
+      left:52.5vw;
+     }    
+    }

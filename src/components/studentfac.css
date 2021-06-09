@@ -1,0 +1,402 @@
+.header4{
+    text-align: center;
+    position:absolute;
+    top:2.5vh;
+    left:42.5vw;
+    font-size: 15px;
+    color:white;
+  }
+
+  #logout5{
+      position: absolute;
+      top: 15vh;
+      left: 75vw;
+  }
+
+  #faculty5{
+    position: absolute;
+    top: 15vh;
+    left: 15vw;
+}
+
+#student5{
+    position: absolute;
+    top: 15vh;
+    left: 32.5vw;
+}
+
+#test5{
+    position: absolute;
+    top: 15vh;
+    left: 47.5vw;
+}
+
+#marks5{
+    position: absolute;
+    top: 15vh;
+    left: 57.5vw;
+}
+#table3{
+width: 800px;
+background-color: white;
+color: black;
+position: relative;
+left: 25vw;
+top:25vh;
+}
+
+.tablethree
+    {
+        position: relative;
+        left: 25vw;
+        top:30vh;
+        color: black;
+        font-weight: bold;
+    }
+#testcode_marks{
+    position: fixed;
+    top: 25vh;
+    left: 50vw;
+}
+
+.testcode_x{
+    position: fixed;
+    top: 25vh;
+    left: 35vw;
+}
+
+#full_marks{
+    position: fixed;
+    top: 30vh;
+    left: 50vw;
+}
+
+.fullmarks_x{
+    position: fixed;
+    top: 30vh;
+    left: 35vw;
+}
+
+
+#testcode{
+    position: fixed;
+    top: 25vh;
+    left: 50vw;
+}
+
+.testcode_y{
+    position: fixed;
+    top: 25vh;
+    left: 35vw;
+}
+
+#fullmarks{
+    position: fixed;
+    top: 30vh;
+    left: 50vw;
+}
+
+.fullmarks_y{
+    position: fixed;
+    top: 30vh;
+    left: 35vw;
+}
+
+#subjectcode{
+    position: fixed;
+    top: 35vh;
+    left: 50vw;
+    font-weight: bold;
+}
+
+.subcode_y{
+    position: fixed;
+    top: 35vh;
+    left: 35vw;
+}
+
+.savetest{
+    position: fixed;
+    top: 40vh;
+    left: 45vw;
+}
+
+.newtest{
+    font-weight: bold;
+    position: relative;
+    top: 40vh;
+    left: 42.5vw;
+}
+
+@media screen and (max-width: 1080px) {
+    .header4{
+        text-align: center;
+        position:absolute;
+        top:2.5vh;
+        left:40vw;
+        font-size: 10px;
+        color:rgb(255, 255, 255);
+      }
+    
+      #logout5{
+          position: absolute;
+          top: 15vh;
+          left: 85vw;
+      }
+    
+      #faculty5{
+        position: absolute;
+        top: 15vh;
+        left: 5vw;
+    }
+    
+    #student5{
+        position: absolute;
+        top: 15vh;
+        left: 25vw;
+    }
+    
+    #test5{
+        position: absolute;
+        top: 15vh;
+        left: 50vw;
+    }
+    
+    #marks5{
+        position: absolute;
+        top: 15vh;
+        left: 65vw;
+    }
+    #table3{
+    width: 800px;
+    background-color: white;
+    color: black;
+    position: relative;
+    left: 05vw;
+    top:25vh;
+    }
+    
+    .tablethree
+        {
+            position: relative;
+            left: 05vw;
+            top:30vh;
+            color: black;
+            font-weight: bold;
+        }
+    #testcode_marks{
+        position: fixed;
+        top: 40vh;
+        left: 50vw;
+    }
+    
+    .testcode_x{
+        position: fixed;
+        top: 40vh;
+        left: 20vw;
+    }
+    
+    #full_marks{
+        position: fixed;
+        top: 45vh;
+        left: 50vw;
+    }
+    
+    .fullmarks_x{
+        position: fixed;
+        top: 45vh;
+        left: 20vw;
+    }
+    
+    
+    #testcode{
+        position: fixed;
+        top: 40vh;
+        left: 50vw;
+    }
+    
+    .testcode_y{
+        position: fixed;
+        top: 40vh;
+        left: 20vw;
+    }
+    
+    #fullmarks{
+        position: fixed;
+        top: 45vh;
+        left: 50vw;
+    }
+    
+    .fullmarks_y{
+        position: fixed;
+        top: 45vh;
+        left: 20vw;
+    }
+    
+    #subjectcode{
+        position: fixed;
+        top: 50vh;
+        left: 50vw;
+        font-weight: bold;
+    }
+    
+    .subcode_y{
+        position: fixed;
+        top: 50vh;
+        left: 20vw;
+    }
+    
+    .savetest{
+        position: fixed;
+        top: 60vh;
+        left: 45vw;
+    }
+    
+    .newtest{
+        font-weight: bold;
+        position: relative;
+        top: 50vh;
+        left: 42.5vw;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    button{
+        font-size: 10px;
+        display: block;
+        background-color: white;
+        border-radius: 5px;
+        text-align: center;
+        font-weight: bold;
+        }
+    .header4{
+        text-align: center;
+        position:absolute;
+        top:2.5vh;
+        left:32.5vw;
+        font-size: 10px;
+        color:rgb(255, 255, 255);
+      }
+    
+      #logout5{
+          position: absolute;
+          top: 15vh;
+          left: 80vw;
+      }
+    
+      #faculty5{
+        position: absolute;
+        top: 15vh;
+        left: 05vw;
+    }
+    
+    #student5{
+        position: absolute;
+        top: 15vh;
+        left: 40vw;
+    }
+    
+    #test5{
+        position: absolute;
+        top: 20vh;
+        left: 20vw;
+    }
+    
+    #marks5{
+        position: absolute;
+        top: 20vh;
+        left: 55vw;
+    }
+    #table3{
+    width: 800px;
+    background-color: white;
+    color: black;
+    position: relative;
+    left: 2.5vw;
+    top:25vh;
+    }
+    
+    .tablethree
+        {
+            position: relative;
+            left: 2.5vw;
+            top:30vh;
+            color: black;
+            font-weight: bold;
+        }
+    #testcode_marks{
+        position: fixed;
+        top: 40vh;
+        left: 50vw;
+    }
+    
+    .testcode_x{
+        position: fixed;
+        top: 40vh;
+        left: 10vw;
+    }
+    
+    #full_marks{
+        position: fixed;
+        top: 45vh;
+        left: 50vw;
+    }
+    
+    .fullmarks_x{
+        position: fixed;
+        top: 45vh;
+        left: 10vw;
+    }
+    
+    
+    #testcode{
+        position: fixed;
+        top: 40vh;
+        left: 50vw;
+    }
+    
+    .testcode_y{
+        position: fixed;
+        top: 40vh;
+        left: 10vw;
+    }
+    
+    #fullmarks{
+        position: fixed;
+        top: 45vh;
+        left: 50vw;
+    }
+    
+    .fullmarks_y{
+        position: fixed;
+        top: 45vh;
+        left: 10vw;
+    }
+    
+    #subjectcode{
+        position: fixed;
+        top: 50vh;
+        left: 50vw;
+        font-weight: bold;
+    }
+    
+    .subcode_y{
+        position: fixed;
+        top: 50vh;
+        left: 10vw;
+    }
+    
+    .savetest{
+        position: fixed;
+        top: 55vh;
+        left: 45vw;
+    }
+    
+    .newtest{
+        font-weight: bold;
+        position: relative;
+        top: 60vh;
+        left: 25vw;
+    }
+}

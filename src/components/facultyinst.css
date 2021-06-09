@@ -1,0 +1,420 @@
+.header2{
+    text-align: center;
+    position:relative;
+    top:2.5vh;
+    left:0vw;
+    font-size: 15px;
+    color:white;
+  }
+
+  #profile2{
+    position: absolute;
+    top: 15vh;
+    left: 25vw;
+}
+
+#logout2{
+    position: absolute;
+    top: 15vh;
+    left: 65vw;
+}
+
+#but1{
+    position: absolute;
+    top: 15vh;
+    left: 35vw;
+}
+
+#but2{
+    position: absolute;
+    top: 15vh;
+    left: 50vw;
+}
+
+#savebut{
+    position: fixed;
+    top: 65vh;
+    left: 45vw;
+}
+.subjectnm-one{
+    position: fixed;
+    top: 30vh;
+    left: 37.5vw;
+}
+
+#subjectnm-two{
+    position: fixed;
+    top: 30vh;
+    left: 50vw;
+}
+
+.assfacul-one{
+    position: fixed;
+    top: 35vh;
+    left: 37.5vw;
+}
+
+#assfacul-two{
+    position: fixed;
+    top: 35vh;
+    left: 50vw;
+}
+
+.assfaculnm-one{
+    position: fixed;
+    top: 40vh;
+    left: 37.5vw;
+}
+
+#assfaculnm-two{
+    position: fixed;
+    top: 40vh;
+    left: 50vw;
+}
+
+.subjectcd-one{
+    position: fixed;
+    top: 45vh;
+    left: 37.5vw;
+}
+
+#subjectcd-two{
+    position: fixed;
+    top: 45vh;
+    left: 50vw;
+}
+
+.day-one{
+    position: fixed;
+    top: 50vh;
+    left: 37.5vw;
+}
+
+#day-two{
+    position: fixed;
+    top: 50vh;
+    left: 50vw;
+}
+
+.time-one{
+    position: fixed;
+    top: 55vh;
+    left: 37.5vw;
+}
+
+#time-two{
+    position: fixed;
+    top: 55vh;
+    left: 50vw;
+}
+
+th,td {
+	border: 1px black solid;
+}
+table{
+    width: 800px;
+    background-color: white;
+}
+
+#table1{
+    width: 800px;
+    background-color: white;
+    color: black;
+    position: relative;
+    left: 25vw;
+    top:30vh;
+}
+
+.tableone
+{
+    position: relative;
+    left: 26vw;
+    top:35vh;
+    color: black;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 1080px) {
+    .header2{
+        text-align: center;
+        position:relative;
+        top:5vh;
+        left:0vw;
+        font-size: 15px;
+        color:rgb(255, 255, 255);
+      }
+    
+      #profile2{
+        position: absolute;
+        top: 17.5vh;
+        left: 10vw;
+    }
+    
+    #logout2{
+        position: absolute;
+        top: 17.5vh;
+        left: 77.5vw;
+    }
+    
+    #but1{
+        position: absolute;
+        top: 17.5vh;
+        left: 25vw;
+    }
+    
+    #but2{
+        position: absolute;
+        top: 17.5vh;
+        left: 50vw;
+    }
+    
+    #savebut{
+        position: fixed;
+        top: 65vh;
+        left: 40vw;
+    }
+    .subjectnm-one{
+        position: fixed;
+        top: 30vh;
+        left: 17.5vw;
+    }
+    
+    #subjectnm-two{
+        position: fixed;
+        top: 30vh;
+        left: 50vw;
+    }
+    
+    .assfacul-one{
+        position: fixed;
+        top: 35vh;
+        left: 17.5vw;
+    }
+    
+    #assfacul-two{
+        position: fixed;
+        top: 35vh;
+        left: 50vw;
+    }
+    
+    .assfaculnm-one{
+        position: fixed;
+        top: 40vh;
+        left: 17.5vw;
+    }
+    
+    #assfaculnm-two{
+        position: fixed;
+        top: 40vh;
+        left: 50vw;
+    }
+    
+    .subjectcd-one{
+        position: fixed;
+        top: 45vh;
+        left: 17.5vw;
+    }
+    
+    #subjectcd-two{
+        position: fixed;
+        top: 45vh;
+        left: 50vw;
+    }
+    
+    .day-one{
+        position: fixed;
+        top: 50vh;
+        left: 17.5vw;
+    }
+    
+    #day-two{
+        position: fixed;
+        top: 50vh;
+        left: 50vw;
+    }
+    
+    .time-one{
+        position: fixed;
+        top: 55vh;
+        left: 17.5vw;
+    }
+    
+    #time-two{
+        position: fixed;
+        top: 55vh;
+        left: 50vw;
+    }
+    
+    th,td {
+        border: 1px black solid;
+    }
+    table{
+        width: 800px;
+        background-color: white;
+    }
+    
+    #table1{
+        width: 800px;
+        background-color: white;
+        color: black;
+        position: relative;
+        left: 26vw;
+        top:25vh;
+    }
+    
+    .tableone
+    {
+        position: relative;
+        left: 26vw;
+        top:30vh;
+        color: black;
+        font-weight: bold;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    button{
+        font-size: 10px;
+        display: block;
+        background-color: white;
+        border-radius: 5px;
+        text-align: center;
+        font-weight: bold;
+        }
+    .header2{
+        text-align: center;
+        position:relative;
+        top:5vh;
+        left:0vw;
+        font-size: 10px;
+        color:rgb(255, 255, 255);
+      }
+    
+      #profile2{
+        position: absolute;
+        top: 25vh;
+        left: 2.5vw;
+    }
+    
+    #logout2{
+        position: absolute;
+        top: 25vh;
+        left: 85vw;
+    }
+    
+    #but1{
+         position: absolute;
+        top: 20vh;
+        left: 12.5vw;
+    }
+    
+    #but2{
+        position: absolute;
+        top: 20vh;
+        left: 52.5vw;
+    }
+    
+    #savebut{
+        position: fixed;
+        top: 65vh;
+        left: 40vw;
+    }
+    .subjectnm-one{
+        position: fixed;
+        top: 30vh;
+        left: 7.5vw;
+    }
+    
+    #subjectnm-two{
+        position: fixed;
+        top: 30vh;
+        left: 50vw;
+    }
+    
+    .assfacul-one{
+        position: fixed;
+        top: 35vh;
+        left: 7.5vw;
+    }
+    
+    #assfacul-two{
+        position: fixed;
+        top: 35vh;
+        left: 50vw;
+    }
+    
+    .assfaculnm-one{
+        position: fixed;
+        top: 40vh;
+        left: 7.5vw;
+    }
+    
+    #assfaculnm-two{
+        position: fixed;
+        top: 40vh;
+        left: 50vw;
+    }
+    
+    .subjectcd-one{
+        position: fixed;
+        top: 45vh;
+        left: 7.5vw;
+    }
+    
+    #subjectcd-two{
+        position: fixed;
+        top: 45vh;
+        left: 50vw;
+    }
+    
+    .day-one{
+        position: fixed;
+        top: 50vh;
+        left: 7.5vw;
+    }
+    
+    #day-two{
+        position: fixed;
+        top: 50vh;
+        left: 50vw;
+    }
+    
+    .time-one{
+        position: fixed;
+        top: 55vh;
+        left: 7.5vw;
+    }
+    
+    #time-two{
+        position: fixed;
+        top: 55vh;
+        left: 50vw;
+    }
+    
+    th,td {
+        border: 1px black solid;
+    }
+    table{
+        width: 800px;
+        background-color: white;
+    }
+    
+    #table1{
+        width: 800px;
+        background-color: white;
+        color: black;
+        position: relative;
+        left: 26vw;
+        top:30vh;
+    }
+    
+    .tableone
+    {
+        position: relative;
+        left: 26vw;
+        top:35vh;
+        color: black;
+        font-weight: bold;
+    }
+}

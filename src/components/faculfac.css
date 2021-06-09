@@ -1,0 +1,133 @@
+.header1{
+    text-align: center;
+    position:relative;
+    top:2.5vh;
+    left:0vw;
+    font-size: 15px;
+    color:white;
+  }
+
+  .b3{
+    position: absolute;
+    top: 15vh;
+    left: 63.5vw;
+}
+
+.b4{
+    position: absolute;
+    top: 15vh;
+    left: 31.5vw;
+}
+
+.b5{
+    position: absolute;
+    top: 15vh;
+    left: 43.5vw;
+}
+
+.student{
+    position: relative;
+    top:17.5vh;
+    left:45vw;
+}
+
+#table2{
+    width: 800px;
+    background-color: white;
+    color: black;
+    position: relative;
+    left: 25vw;
+    top:15vh;
+}
+
+@media screen and (max-width: 1080px) {
+    .header1{
+        text-align: center;
+        position:fixed;
+        top:2.5vh;
+        left:30vw;
+        font-size: 10px;
+        color:white;
+      }
+    
+      .b3{
+        position: absolute;
+        top: 15vh;
+        left: 70vw;
+    }
+    
+    .b4{
+        position: absolute;
+        top: 15vh;
+        left: 20vw;
+    }
+    
+    .b5{
+        position: absolute;
+        top: 15vh;
+        left: 35vw;
+    }
+    .student{
+        position: relative;
+        top:17.5vh;
+    }
+    
+    #table2{
+        width: 800px;
+        background-color: white;
+        color: black;
+        position: relative;
+        left: 10vw;
+        top:15vh;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    button{
+        font-size: 10px;
+        display: block;
+        background-color: white;
+        border-radius: 5px;
+        text-align: center;
+        font-weight: bold;
+        }
+    .header1{
+        text-align: center;
+        position:relative;
+        top:5vh;
+        left:0vw;
+        font-size: 10px;
+        color:rgb(255, 255, 255)
+      }
+    
+      .b3{
+        position: absolute;
+        top: 25vh;
+        left: 75vw;
+    }
+    
+    .b4{
+        position: absolute;
+        top: 25vh;
+        left: 10vw;
+    }
+    
+    .b5{
+        position: absolute;
+        top: 30vh;
+        left: 25vw;
+    }
+    .student{
+        position: relative;
+        top:35vh;
+    }
+    #table2{
+        width: 800px;
+        background-color: white;
+        color: black;
+        position: relative;
+        left: 0vw;
+        top:30vh;
+    }
+}

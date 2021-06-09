@@ -1,0 +1,193 @@
+
+.header{
+  text-align: center;
+  position:fixed;
+  top:25vh;
+  left:32.5vw;
+  font-size: 15px;
+  color:white;
+}
+
+button{
+display: block;
+background-color: white;
+border-radius: 5px;
+text-align: center;
+font-weight: bold;
+}
+
+.b1{
+  position: fixed;
+  left: 40vw;
+  top:62.5vh;
+  }
+  
+  .b2{
+  position:fixed;
+  left:52.5vw;
+  top:62.5vh;
+  }
+
+  .username-but{
+    display: block;
+    text-align: center;
+    border-radius: 5px;
+    position: relative;
+    top:50%;
+    left:50%;
+    margin-top: 20px;
+    transform: translate(-50%,-50%);
+    }
+    .password-but{
+    display: block;
+    text-align: center;
+    border-radius: 5px;
+    position: relative;
+    top:50%;
+    left:50%;
+    margin-top: 20px;
+    transform: translate(-50%,-50%);
+    }
+    
+    .tnew{
+      color: #ffffff;
+    }
+
+    .signin{
+      text-align: center;
+      position:fixed;
+      top:40vh;
+      left:42.5vw;
+      font-size: 20px;
+      color: #000000;
+      }
+
+      @media screen and (max-width: 1080px) {
+        .header{
+          text-align: center;
+          position:fixed;
+          top:25vh;
+          left:25vw;
+          font-size: 12.5px;
+          color:rgb(255, 255, 255);
+        }
+        
+        button{
+        display: block;
+        background-color: white;
+        border-radius: 5px;
+        text-align: center;
+        font-weight: bold;
+        }
+        
+        .b1{
+          position: fixed;
+          left: 32.5vw;
+          top:70vh;
+          }
+          
+          .b2{
+          position:fixed;
+          left:60vw;
+          top:70vh;
+          }
+        
+          .username-but{
+            display: block;
+            text-align: center;
+            border-radius: 5px;
+            position: relative;
+            top:50%;
+            left:50%;
+            margin-top: 20px;
+            transform: translate(-50%,-50%);
+            }
+            .password-but{
+            display: block;
+            text-align: center;
+            border-radius: 5px;
+            position: relative;
+            top:50%;
+            left:50%;
+            margin-top: 20px;
+            transform: translate(-50%,-50%);
+            }
+            
+            .tnew{
+              color: #ffffff;
+            }
+        
+            .signin{
+              text-align: center;
+              position:fixed;
+              top:42.5vh;
+              left:40vw;
+              font-size: 20px;
+              color: #000000;
+              }
+            }
+
+            @media screen and (max-width: 600px) {
+              .header{
+                text-align: center;
+                position:fixed;
+                top:25vh;
+                left:2.5vw;
+                font-size: 10px;
+                color:rgb(255, 255, 255);
+              }
+              
+              button{
+              display: block;
+              background-color: white;
+              border-radius: 5px;
+              text-align: center;
+              font-weight: bold;
+              }
+              
+              .b1{
+                position: fixed;
+                left: 20vw;
+                top:70vh;
+                }
+                
+                .b2{
+                position:fixed;
+                left:60vw;
+                top:70vh;
+                }
+              
+                .username-but{
+                  display: block;
+                  text-align: center;
+                  border-radius: 5px;
+                  position: relative;
+                  top:50%;
+                  left:50%;
+                  margin-top: 20px;
+                  transform: translate(-50%,-50%);
+                  }
+                  .password-but{
+                  display: block;
+                  text-align: center;
+                  border-radius: 5px;
+                  position: relative;
+                  top:50%;
+                  left:50%;
+                  margin-top: 20px;
+                  transform: translate(-50%,-50%);
+                  }
+                  
+                  .tnew{
+                    color: #ffffff;
+                  }
+              
+                  .signin{
+                    text-align: center;
+                    position:fixed;
+                    top:42.5vh;
+                    left:25vw;
+                    font-size: 20px;
+                    color: #000000;
+                    }
+                  }
