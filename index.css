@@ -1,0 +1,63 @@
+body{
+    background-image: url(./one.jpg);
+    background-size: 1920px 1000px;
+    background-repeat: repeat;
+    font-size: 15px;
+    color: #ffffff;
+    letter-spacing: 1px;
+    }
+
+    footer {
+        text-align: center;
+        color: rgb(0, 0, 0);
+        background-color:aliceblue;
+        position:relative;
+        top:95vh;
+        left:00vw;
+        }
+
+
+        /* Use a media query to add a breakpoint at 1080px: */
+@media screen and (max-width: 1080px) {
+    body{
+        background-image: url(./one.jpg);
+        background-size: 1920px 1000px;
+        background-repeat: repeat;
+        font-size: 15px;
+        color: #ffffff;
+        letter-spacing: 1px;
+        }
+    
+        footer {
+            text-align: center;
+            color: rgb(0, 0, 0);
+            background-color:aliceblue;
+            position:relative;
+            top:90vh;
+            left:0vw;
+            }
+
+}
+
+
+/* Use a media query to add a breakpoint at 600px: */
+@media screen and (max-width: 600px) {
+    body{
+        background-image: url(./one.jpg);
+        background-size: 1920px 1000px;
+        background-repeat: repeat;
+        font-size: 15px;
+        color: #ffffff;
+        letter-spacing: 1px;
+        }
+    
+        footer {
+            text-align: center;
+            color: rgb(0, 0, 0);
+            background-color:aliceblue;
+            position:relative;
+            top:85vh;
+            left:0vw;
+            }
+
+}
