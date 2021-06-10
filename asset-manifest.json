@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/eduvir/static/css/main.ac907b9c.chunk.css",
-    "main.js": "/eduvir/static/js/main.4c8cb342.chunk.js",
-    "main.js.map": "/eduvir/static/js/main.4c8cb342.chunk.js.map",
+    "main.css": "/eduvir/static/css/main.03240e31.chunk.css",
+    "main.js": "/eduvir/static/js/main.7ea9c973.chunk.js",
+    "main.js.map": "/eduvir/static/js/main.7ea9c973.chunk.js.map",
     "runtime-main.js": "/eduvir/static/js/runtime-main.f6ab36a9.js",
     "runtime-main.js.map": "/eduvir/static/js/runtime-main.f6ab36a9.js.map",
-    "static/js/2.6819ef1c.chunk.js": "/eduvir/static/js/2.6819ef1c.chunk.js",
-    "static/js/2.6819ef1c.chunk.js.map": "/eduvir/static/js/2.6819ef1c.chunk.js.map",
+    "static/js/2.2d62db4c.chunk.js": "/eduvir/static/js/2.2d62db4c.chunk.js",
+    "static/js/2.2d62db4c.chunk.js.map": "/eduvir/static/js/2.2d62db4c.chunk.js.map",
     "static/js/3.37ba7e08.chunk.js": "/eduvir/static/js/3.37ba7e08.chunk.js",
     "static/js/3.37ba7e08.chunk.js.map": "/eduvir/static/js/3.37ba7e08.chunk.js.map",
     "index.html": "/eduvir/index.html",
-    "static/css/main.ac907b9c.chunk.css.map": "/eduvir/static/css/main.ac907b9c.chunk.css.map",
-    "static/js/2.6819ef1c.chunk.js.LICENSE.txt": "/eduvir/static/js/2.6819ef1c.chunk.js.LICENSE.txt"
+    "static/css/main.03240e31.chunk.css.map": "/eduvir/static/css/main.03240e31.chunk.css.map",
+    "static/js/2.2d62db4c.chunk.js.LICENSE.txt": "/eduvir/static/js/2.2d62db4c.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.f6ab36a9.js",
-    "static/js/2.6819ef1c.chunk.js",
-    "static/css/main.ac907b9c.chunk.css",
-    "static/js/main.4c8cb342.chunk.js"
+    "static/js/2.2d62db4c.chunk.js",
+    "static/css/main.03240e31.chunk.css",
+    "static/js/main.7ea9c973.chunk.js"
   ]
 }
