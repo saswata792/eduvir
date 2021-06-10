@@ -202,9 +202,14 @@ function Facultyinst(){
             <td>  <div>${data.subjectcode}</div></td>
             
             <td>  <div>${data.subjectname}</div></td>
-            <button id="${data.subjectcode}">CHECK</button>
+
+            
             </tr>
             <table>
+
+            <div class="perform">
+            <button id="${data.subjectcode}">CHECK</button>
+            </div>
             
             </div>`:``
             )).forEach((element)=>{
