@@ -208,7 +208,7 @@ function Subjectstud(){
                             
                             marks.map((value)=>(
                                     
-                                   `<div class="range"></div><input type="range" min=0 max=100 value=${value.split("%")[0]}></input>`
+                                   `<div class="range"></div><input type="range" min=0 max=100 value=${value.split("%")[0]}>${value}</input>`
                                     )).forEach((element)=>{
                                     context+=element
                                   })
